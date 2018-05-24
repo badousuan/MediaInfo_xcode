@@ -1,0 +1,1 @@
+MediaInfo_xcode/MediaInfo/Source/GUI/Cocoa/MediaInfo.xcodeproj

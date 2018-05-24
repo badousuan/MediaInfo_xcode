@@ -1,0 +1,9 @@
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/CMakeFiles/install.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/CMakeFiles/mediainfo.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/CMakeFiles/uninstall.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/CMakeFiles/ALL_BUILD.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/CMakeFiles/ZERO_CHECK.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/install.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/zen.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/ALL_BUILD.dir
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/ZERO_CHECK.dir

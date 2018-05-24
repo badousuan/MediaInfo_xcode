@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5051E918EAC24832AF1F926D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DD94595D232475088AD4730 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DD2BCF7789C94F27A9806B60 /* CMake Rules */,
+			);
+			dependencies = (
+				AD0BFBE07F49484FAFB72272 /* PBXTargetDependency */,
+				D53B3CE364774A1BBAE8989E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8B9EE46FC79C453692948E5C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 932275D6AB004EB181581491 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				193CF568B036476E8C728B4A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C104B2437DDC4C20A970695E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D6A98FB7337A423988EA64FA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21C50AA7081B4F05A576E9EC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3A50DF03FD174D22B416C15C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06FDC70E40D9403EAF2AC538 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.h */ = {isa = PBXBuildFile; fileRef = 51B481BFC4AA4FF19DFF4486 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.h */; };
+		071FA9FC0265405AAD6ABCA6 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.cpp */ = {isa = PBXBuildFile; fileRef = D38AEFC7AF7F4E1D8C70E84B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.cpp */; };
+		0CDD35C0C87848279FFF19C5 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.cpp */ = {isa = PBXBuildFile; fileRef = 952A716F0FD9428796E131E9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.cpp */; };
+		0D3BA4C8E7D944F987B1E6A8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C380815FFFA44B77A230CD24 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */; };
+		10C9B1844D304728836F472E /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.cpp */ = {isa = PBXBuildFile; fileRef = E80EE32ECFBC4952910DED91 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.cpp */; };
+		13D4022B6CBA417DACECF323 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.cpp */ = {isa = PBXBuildFile; fileRef = CAB59286561D45F8909F0A67 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.cpp */; };
+		2154EA480D034D12B5A95E78 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.cpp */ = {isa = PBXBuildFile; fileRef = 3EF412ADA13242DB9401CB1D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.cpp */; };
+		25F08958FD5B4AA6AB45A95B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.h */ = {isa = PBXBuildFile; fileRef = 39A601848B8F485781F1C66C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.h */; };
+		277332533FF7428E846F5650 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.cpp */ = {isa = PBXBuildFile; fileRef = B7D213BC7BD846D9AC8F8265 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.cpp */; };
+		2FA42F9F4C8A4810A8A73EB8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.h */ = {isa = PBXBuildFile; fileRef = 560106326D0A4E1DAE7AB273 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.h */; };
+		312CA25AB7BC49ABAFFAB5AD /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream.h */ = {isa = PBXBuildFile; fileRef = 22F04253753D4DE3BA0C8B14 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream.h */; };
+		33AF25DE1AAD43EA9669B8EC /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_LE.h */ = {isa = PBXBuildFile; fileRef = 72086C4066564F1895E6AB16 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_LE.h */; };
+		39E9EC8C38314C29A06CE674 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.h */ = {isa = PBXBuildFile; fileRef = 2B7585E48D624D959C3FFF1C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.h */; };
+		3A1BA5B2C3164433B28EAB41 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/PreComp.h */ = {isa = PBXBuildFile; fileRef = 2A64C847A3FF41B09D32E06F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/PreComp.h */; };
+		3BDB00B063014C2CA7C4681D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.h */ = {isa = PBXBuildFile; fileRef = 63DDA5E27548438E9A836F10 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.h */; };
+		3D5B0E4BE8674122BE4C8D40 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.h */ = {isa = PBXBuildFile; fileRef = 04E9A3E4B4F946818C115C18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.h */; };
+		3FFB2650F8DD4549A198DBE0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.h */ = {isa = PBXBuildFile; fileRef = A8A2245235AF43BEBBDD22AE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.h */; };
+		4067E4E49FB14FB1ADA3BC86 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.cpp */ = {isa = PBXBuildFile; fileRef = 9E110A6D86314797899B0FA7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.cpp */; };
+		420BEED2CCDE4D8081A94A00 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.h */ = {isa = PBXBuildFile; fileRef = 7B9F449835F34D7B91B2D731 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.h */; };
+		44A271A92BF94EA995D36C89 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.cpp */ = {isa = PBXBuildFile; fileRef = 0CC62267E993449BBBBACFE9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.cpp */; };
+		4CF44A24CB934D4083D7E2F7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.h */ = {isa = PBXBuildFile; fileRef = 9D3763E1BF5140049B47CBB7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.h */; };
+		569820FE05EC4B88B3CD52B8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.h */ = {isa = PBXBuildFile; fileRef = 06D90A5F9EA74AA2BE636008 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.h */; };
+		584FB7D39A6346DF9D56D48B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_Fast.h */ = {isa = PBXBuildFile; fileRef = DE413543B57D47A2A599CAA2 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_Fast.h */; };
+		58C0B67ACECD4EDD8C8F3337 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.h */ = {isa = PBXBuildFile; fileRef = A00980B91C1D48CEB2AEDB98 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.h */; };
+		675328EC678749239322F1B4 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.h */ = {isa = PBXBuildFile; fileRef = C61202F5E8A44C44B9B6BC58 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.h */; };
+		685760159E8743A5A82D21FF /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.h */ = {isa = PBXBuildFile; fileRef = 84AD704AC7794BCC8C6ECAA0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.h */; };
+		6BC0620BC0F64573AE8899FF /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.h */ = {isa = PBXBuildFile; fileRef = 0A1B120B2901412EAA3B1E74 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.h */; };
+		7E14C4E7C6B44A97A78FBB77 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.cpp */ = {isa = PBXBuildFile; fileRef = 4967E17D023E4BC5ADE6909D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.cpp */; };
+		883AD6E50D4E4D2B98D6B8E4 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.h */ = {isa = PBXBuildFile; fileRef = E5E618B01F4D428AB381585A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.h */; };
+		91219E1A2E4041DC88C0F077 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 4E64430238564A79BD5D185C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.cpp */; };
+		919821376F3947AEAB9C3AE5 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.cpp */ = {isa = PBXBuildFile; fileRef = D1A0CAF3BD0A4A258F497F18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.cpp */; };
+		A3CC3A6C6BA542478F47ED03 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.h */ = {isa = PBXBuildFile; fileRef = 59464084E867434592E06E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.h */; };
+		AE2C062F4FD74AE4BCC70409 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.cpp */ = {isa = PBXBuildFile; fileRef = CA47C341CA7547709971F0BE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.cpp */; };
+		AFB65A62F5B9407E94E35910 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.h */ = {isa = PBXBuildFile; fileRef = CD17F6B4A5FB4BC48D1AE848 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.h */; };
+		B3C04422DFD54F01BA78E1B7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.h */ = {isa = PBXBuildFile; fileRef = 480CCDAA693E4C46BED20A0D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.h */; };
+		B44A4109CBC44006A7073F9A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.cpp */ = {isa = PBXBuildFile; fileRef = 83B5D9EC8A654675914B4CD1 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.cpp */; };
+		B904FC96040840EDA194BF47 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf_Internal.h */ = {isa = PBXBuildFile; fileRef = D91AE42DFA30473AB7CDF19B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf_Internal.h */; };
+		BAC26BAC6C1E46EDB0776EEE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.cpp */ = {isa = PBXBuildFile; fileRef = 4C345C431BD4418CAE270D36 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.cpp */; };
+		C073A44E821D416C9781BBF9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.cpp */ = {isa = PBXBuildFile; fileRef = 08CF2967505749538113F818 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.cpp */; };
+		C246AD0433C8467F99CB2367 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.h */ = {isa = PBXBuildFile; fileRef = B52135C4FA2941F684A61E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.h */; };
+		C58C091D201043FB8729527D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.cpp */ = {isa = PBXBuildFile; fileRef = ACD49B1501C24AB883C12CFC /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.cpp */; };
+		C8E8D7BC4C1747D9B46A7E99 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.h */ = {isa = PBXBuildFile; fileRef = 7B893DC65B114CEABD566D28 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.h */; };
+		CC188ECED5F54BF491879C7A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.cpp */ = {isa = PBXBuildFile; fileRef = 4149FD6F2A7649AA9A07598E /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.cpp */; };
+		CFFFC208BA7C437FAA045B8F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.cpp */ = {isa = PBXBuildFile; fileRef = 2EB24C06724F43F89E44FD5A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.cpp */; };
+		D33F004FBB3C4E08B548077B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.cpp */ = {isa = PBXBuildFile; fileRef = 30CA7F132B764EAB9EDB3B37 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.cpp */; };
+		DDD455F531D841B1A0FA1929 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.h */ = {isa = PBXBuildFile; fileRef = EFAA02BC93B3453398E14F76 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.h */; };
+		DE11706A683F447DA51410E0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.cpp */ = {isa = PBXBuildFile; fileRef = B6257C3F6710490A8B91B1E8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.cpp */; };
+		DE27B3EA879A41DE904113ED /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Trace.h */ = {isa = PBXBuildFile; fileRef = A1495A75144143368D9D0A4C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Trace.h */; };
+		DFE79E4488044A2E9A0A8894 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.cpp */ = {isa = PBXBuildFile; fileRef = DA9FE1E7C10140AE8806E917 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.cpp */; };
+		E1CC28AA85F74C63A209DBCE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.h */ = {isa = PBXBuildFile; fileRef = A63288D4E1E94FA1ABBD4FC3 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.h */; };
+		F3DE81C523F44E80992CC496 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.cpp */ = {isa = PBXBuildFile; fileRef = 9D4D9D47A5E64B22B3EA8101 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.cpp */; };
+		FAFC8CE5C4634E5F82474E87 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.cpp */ = {isa = PBXBuildFile; fileRef = 697AC7A8FDF04ECA9089E4A4 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.cpp */; };
+		FFFE61A4139D4CB9A4C3BF2F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.h */ = {isa = PBXBuildFile; fileRef = 0DCDD3F85AAA40B4A67DDECE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		116EA41A93C24E05A3A4FD64 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6C4FB1F27A044665B96EDCC9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		70D2EBFAA55646DFA863B47D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		81A0024E148044E4945410CB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7D095C64634C2CBFFA6A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCA75359BB477283746F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A98FB7337A423988EA64FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		4C4355E1EB2B4EB9A39EE78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCA75359BB477283746F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5AA7712C1845F09D8CE2D8;
+			remoteInfo = zen;
+		};
+		8FAADEB3AF5C481B9CD9D0CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCA75359BB477283746F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5051E918EAC24832AF1F926D;
+			remoteInfo = ALL_BUILD;
+		};
+		E20390CB1A004E2CA48DECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCA75359BB477283746F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A98FB7337A423988EA64FA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03627BA816B24B5ABD8F943D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		04E9A3E4B4F946818C115C18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MemoryDebug.h; path = ../../Source/ZenLib/MemoryDebug.h; sourceTree = SOURCE_ROOT; };
+		06D90A5F9EA74AA2BE636008 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ZtringListList.h; path = ../../Source/ZenLib/ZtringListList.h; sourceTree = SOURCE_ROOT; };
+		08CF2967505749538113F818 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Conf.cpp; path = ../../Source/ZenLib/Conf.cpp; sourceTree = SOURCE_ROOT; };
+		0A1B120B2901412EAA3B1E74 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileName.h; path = ../../Source/ZenLib/FileName.h; sourceTree = SOURCE_ROOT; };
+		0CC62267E993449BBBBACFE9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = File.cpp; path = ../../Source/ZenLib/File.cpp; sourceTree = SOURCE_ROOT; };
+		0DCDD3F85AAA40B4A67DDECE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = int128u.h; path = ../../Source/ZenLib/int128u.h; sourceTree = SOURCE_ROOT; };
+		22F04253753D4DE3BA0C8B14 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitStream.h; path = ../../Source/ZenLib/BitStream.h; sourceTree = SOURCE_ROOT; };
+		2A64C847A3FF41B09D32E06F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/PreComp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PreComp.h; path = ../../Source/ZenLib/PreComp.h; sourceTree = SOURCE_ROOT; };
+		2B7585E48D624D959C3FFF1C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Translation.h; path = ../../Source/ZenLib/Translation.h; sourceTree = SOURCE_ROOT; };
+		2EB24C06724F43F89E44FD5A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Dir.cpp; path = ../../Source/ZenLib/Dir.cpp; sourceTree = SOURCE_ROOT; };
+		30CA7F132B764EAB9EDB3B37 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InfoMap.cpp; path = ../../Source/ZenLib/InfoMap.cpp; sourceTree = SOURCE_ROOT; };
+		39A601848B8F485781F1C66C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Conf.h; path = ../../Source/ZenLib/Conf.h; sourceTree = SOURCE_ROOT; };
+		3AD679061EA1453F804D611D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3EF412ADA13242DB9401CB1D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZtringList.cpp; path = ../../Source/ZenLib/ZtringList.cpp; sourceTree = SOURCE_ROOT; };
+		4149FD6F2A7649AA9A07598E /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MemoryDebug.cpp; path = ../../Source/ZenLib/MemoryDebug.cpp; sourceTree = SOURCE_ROOT; };
+		480CCDAA693E4C46BED20A0D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Html_Request.h; path = ../../Source/ZenLib/Format/Html/Html_Request.h; sourceTree = SOURCE_ROOT; };
+		4967E17D023E4BC5ADE6909D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OS_Utils.cpp; path = ../../Source/ZenLib/OS_Utils.cpp; sourceTree = SOURCE_ROOT; };
+		4C345C431BD4418CAE270D36 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZtringListList.cpp; path = ../../Source/ZenLib/ZtringListList.cpp; sourceTree = SOURCE_ROOT; };
+		4E64430238564A79BD5D185C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Html_Handler.cpp; path = ../../Source/ZenLib/Format/Html/Html_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		51B481BFC4AA4FF19DFF4486 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Thread.h; path = ../../Source/ZenLib/Thread.h; sourceTree = SOURCE_ROOT; };
+		560106326D0A4E1DAE7AB273 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Http_Request.h; path = ../../Source/ZenLib/Format/Http/Http_Request.h; sourceTree = SOURCE_ROOT; };
+		59464084E867434592E06E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Html_Handler.h; path = ../../Source/ZenLib/Format/Html/Html_Handler.h; sourceTree = SOURCE_ROOT; };
+		63DDA5E27548438E9A836F10 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = int128s.h; path = ../../Source/ZenLib/int128s.h; sourceTree = SOURCE_ROOT; };
+		697AC7A8FDF04ECA9089E4A4 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Thread.cpp; path = ../../Source/ZenLib/Thread.cpp; sourceTree = SOURCE_ROOT; };
+		72086C4066564F1895E6AB16 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_LE.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitStream_LE.h; path = ../../Source/ZenLib/BitStream_LE.h; sourceTree = SOURCE_ROOT; };
+		7B893DC65B114CEABD566D28 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = File.h; path = ../../Source/ZenLib/File.h; sourceTree = SOURCE_ROOT; };
+		7B9F449835F34D7B91B2D731 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ztring.h; path = ../../Source/ZenLib/Ztring.h; sourceTree = SOURCE_ROOT; };
+		83B5D9EC8A654675914B4CD1 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CriticalSection.cpp; path = ../../Source/ZenLib/CriticalSection.cpp; sourceTree = SOURCE_ROOT; };
+		84AD704AC7794BCC8C6ECAA0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Http_Cookies.h; path = ../../Source/ZenLib/Format/Http/Http_Cookies.h; sourceTree = SOURCE_ROOT; };
+		952A716F0FD9428796E131E9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Http_Utils.cpp; path = ../../Source/ZenLib/Format/Http/Http_Utils.cpp; sourceTree = SOURCE_ROOT; };
+		9D3763E1BF5140049B47CBB7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Http_Utils.h; path = ../../Source/ZenLib/Format/Http/Http_Utils.h; sourceTree = SOURCE_ROOT; };
+		9D4D9D47A5E64B22B3EA8101 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Http_Cookies.cpp; path = ../../Source/ZenLib/Format/Http/Http_Cookies.cpp; sourceTree = SOURCE_ROOT; };
+		9E110A6D86314797899B0FA7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ztring.cpp; path = ../../Source/ZenLib/Ztring.cpp; sourceTree = SOURCE_ROOT; };
+		A00980B91C1D48CEB2AEDB98 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = InfoMap.h; path = ../../Source/ZenLib/InfoMap.h; sourceTree = SOURCE_ROOT; };
+		A1495A75144143368D9D0A4C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Trace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Trace.h; path = ../../Source/ZenLib/Trace.h; sourceTree = SOURCE_ROOT; };
+		A63288D4E1E94FA1ABBD4FC3 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Http_Handler.h; path = ../../Source/ZenLib/Format/Http/Http_Handler.h; sourceTree = SOURCE_ROOT; };
+		A8A2245235AF43BEBBDD22AE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ZtringList.h; path = ../../Source/ZenLib/ZtringList.h; sourceTree = SOURCE_ROOT; };
+		ACD49B1501C24AB883C12CFC /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Utils.cpp; path = ../../Source/ZenLib/Utils.cpp; sourceTree = SOURCE_ROOT; };
+		B52135C4FA2941F684A61E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ZtringListListF.h; path = ../../Source/ZenLib/ZtringListListF.h; sourceTree = SOURCE_ROOT; };
+		B6257C3F6710490A8B91B1E8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZtringListListF.cpp; path = ../../Source/ZenLib/ZtringListListF.cpp; sourceTree = SOURCE_ROOT; };
+		B7D213BC7BD846D9AC8F8265 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128s.cpp; path = ../../Source/ZenLib/int128s.cpp; sourceTree = SOURCE_ROOT; };
+		C380815FFFA44B77A230CD24 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C61202F5E8A44C44B9B6BC58 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CriticalSection.h; path = ../../Source/ZenLib/CriticalSection.h; sourceTree = SOURCE_ROOT; };
+		CA47C341CA7547709971F0BE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128u.cpp; path = ../../Source/ZenLib/int128u.cpp; sourceTree = SOURCE_ROOT; };
+		CAB59286561D45F8909F0A67 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Html_Request.cpp; path = ../../Source/ZenLib/Format/Html/Html_Request.cpp; sourceTree = SOURCE_ROOT; };
+		CC28776F91EF4D3A987512C6 /* zen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libzen_debug.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD17F6B4A5FB4BC48D1AE848 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Utils.h; path = ../../Source/ZenLib/Utils.h; sourceTree = SOURCE_ROOT; };
+		D1A0CAF3BD0A4A258F497F18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Http_Handler.cpp; path = ../../Source/ZenLib/Format/Http/Http_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		D38AEFC7AF7F4E1D8C70E84B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Translation.cpp; path = ../../Source/ZenLib/Translation.cpp; sourceTree = SOURCE_ROOT; };
+		D91AE42DFA30473AB7CDF19B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf_Internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Conf_Internal.h; path = ../../Source/ZenLib/Conf_Internal.h; sourceTree = SOURCE_ROOT; };
+		DA9FE1E7C10140AE8806E917 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileName.cpp; path = ../../Source/ZenLib/FileName.cpp; sourceTree = SOURCE_ROOT; };
+		DE413543B57D47A2A599CAA2 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_Fast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitStream_Fast.h; path = ../../Source/ZenLib/BitStream_Fast.h; sourceTree = SOURCE_ROOT; };
+		E5E618B01F4D428AB381585A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Dir.h; path = ../../Source/ZenLib/Dir.h; sourceTree = SOURCE_ROOT; };
+		E80EE32ECFBC4952910DED91 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Http_Request.cpp; path = ../../Source/ZenLib/Format/Http/Http_Request.cpp; sourceTree = SOURCE_ROOT; };
+		EFAA02BC93B3453398E14F76 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OS_Utils.h; path = ../../Source/ZenLib/OS_Utils.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02334B8882B44862ADEABDF5 /* zen */ = {
+			isa = PBXGroup;
+			children = (
+				AC388012271041B887C8B49C /* Source Files */,
+				95F1BFC8C5C941B8B7F077B5 /* Header Files */,
+				C380815FFFA44B77A230CD24 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */,
+			);
+			name = zen;
+			sourceTree = "<group>";
+		};
+		29DA3C6A07664198A811DF9C = {
+			isa = PBXGroup;
+			children = (
+				02334B8882B44862ADEABDF5 /* zen */,
+				3A5E98BAFE5F4D31B23CA70D /* ALL_BUILD */,
+				E8D98D9F6D5542C5A1C244F7 /* ZERO_CHECK */,
+				7768016ED94242F6B77BF38A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5E98BAFE5F4D31B23CA70D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				610EAD9E0AB346CBA885276C /* CMake Rules */,
+				03627BA816B24B5ABD8F943D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		610EAD9E0AB346CBA885276C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7768016ED94242F6B77BF38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC28776F91EF4D3A987512C6 /* zen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F1BFC8C5C941B8B7F077B5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F04253753D4DE3BA0C8B14 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream.h */,
+				DE413543B57D47A2A599CAA2 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_Fast.h */,
+				72086C4066564F1895E6AB16 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/BitStream_LE.h */,
+				39A601848B8F485781F1C66C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.h */,
+				D91AE42DFA30473AB7CDF19B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf_Internal.h */,
+				C61202F5E8A44C44B9B6BC58 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.h */,
+				E5E618B01F4D428AB381585A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.h */,
+				7B893DC65B114CEABD566D28 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.h */,
+				0A1B120B2901412EAA3B1E74 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.h */,
+				59464084E867434592E06E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.h */,
+				480CCDAA693E4C46BED20A0D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.h */,
+				84AD704AC7794BCC8C6ECAA0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.h */,
+				A63288D4E1E94FA1ABBD4FC3 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.h */,
+				560106326D0A4E1DAE7AB273 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.h */,
+				9D3763E1BF5140049B47CBB7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.h */,
+				A00980B91C1D48CEB2AEDB98 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.h */,
+				04E9A3E4B4F946818C115C18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.h */,
+				EFAA02BC93B3453398E14F76 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.h */,
+				2A64C847A3FF41B09D32E06F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/PreComp.h */,
+				51B481BFC4AA4FF19DFF4486 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.h */,
+				A1495A75144143368D9D0A4C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Trace.h */,
+				2B7585E48D624D959C3FFF1C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.h */,
+				CD17F6B4A5FB4BC48D1AE848 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.h */,
+				7B9F449835F34D7B91B2D731 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.h */,
+				A8A2245235AF43BEBBDD22AE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.h */,
+				06D90A5F9EA74AA2BE636008 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.h */,
+				B52135C4FA2941F684A61E3A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.h */,
+				63DDA5E27548438E9A836F10 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.h */,
+				0DCDD3F85AAA40B4A67DDECE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AC388012271041B887C8B49C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				08CF2967505749538113F818 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.cpp */,
+				83B5D9EC8A654675914B4CD1 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.cpp */,
+				2EB24C06724F43F89E44FD5A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.cpp */,
+				0CC62267E993449BBBBACFE9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.cpp */,
+				DA9FE1E7C10140AE8806E917 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.cpp */,
+				4E64430238564A79BD5D185C /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.cpp */,
+				CAB59286561D45F8909F0A67 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.cpp */,
+				9D4D9D47A5E64B22B3EA8101 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.cpp */,
+				D1A0CAF3BD0A4A258F497F18 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.cpp */,
+				E80EE32ECFBC4952910DED91 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.cpp */,
+				952A716F0FD9428796E131E9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.cpp */,
+				30CA7F132B764EAB9EDB3B37 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.cpp */,
+				4149FD6F2A7649AA9A07598E /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.cpp */,
+				4967E17D023E4BC5ADE6909D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.cpp */,
+				697AC7A8FDF04ECA9089E4A4 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.cpp */,
+				D38AEFC7AF7F4E1D8C70E84B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.cpp */,
+				ACD49B1501C24AB883C12CFC /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.cpp */,
+				9E110A6D86314797899B0FA7 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.cpp */,
+				3EF412ADA13242DB9401CB1D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.cpp */,
+				4C345C431BD4418CAE270D36 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.cpp */,
+				B6257C3F6710490A8B91B1E8 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.cpp */,
+				B7D213BC7BD846D9AC8F8265 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.cpp */,
+				CA47C341CA7547709971F0BE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC4E359416614E8F9DC2D861 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E8D98D9F6D5542C5A1C244F7 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				BC4E359416614E8F9DC2D861 /* CMake Rules */,
+				3AD679061EA1453F804D611D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5AA7712C1845F09D8CE2D8 /* zen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2707010C6441ACAD60E1B9 /* Build configuration list for PBXNativeTarget "zen" */;
+			buildPhases = (
+				74BF81B9F4A1465D9836D309 /* Sources */,
+				CA5996A1C07041C3A1280CD8 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD48DBA1784474BB87B1AA6 /* PBXTargetDependency */,
+			);
+			name = zen;
+			productName = zen;
+			productReference = CC28776F91EF4D3A987512C6 /* zen */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CCA75359BB477283746F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 03DCAF9480F14615B3F650FB /* Build configuration list for PBXProject "ZenLib" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6C4FB1F27A044665B96EDCC9 /* Debug */,
+				70D2EBFAA55646DFA863B47D /* Release */,
+				81A0024E148044E4945410CB /* MinSizeRel */,
+				116EA41A93C24E05A3A4FD64 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 29DA3C6A07664198A811DF9C;
+			projectDirPath = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake;
+			projectRoot = "";
+			targets = (
+				5051E918EAC24832AF1F926D /* ALL_BUILD */,
+				D6A98FB7337A423988EA64FA /* ZERO_CHECK */,
+				8B9EE46FC79C453692948E5C /* install */,
+				9D5AA7712C1845F09D8CE2D8 /* zen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193CF568B036476E8C728B4A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib -f /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		32D41110887A4E519B98FD19 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3A50DF03FD174D22B416C15C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib -f /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		46A88A47552D4B71924230A1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6F26F4C80ADF45B8BC69AFAA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA5996A1C07041C3A1280CD8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib -f /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeScripts/zen_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DD2BCF7789C94F27A9806B60 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib -f /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74BF81B9F4A1465D9836D309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073A44E821D416C9781BBF9 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Conf.cpp */,
+				B44A4109CBC44006A7073F9A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/CriticalSection.cpp */,
+				CFFFC208BA7C437FAA045B8F /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Dir.cpp */,
+				44A271A92BF94EA995D36C89 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/File.cpp */,
+				DFE79E4488044A2E9A0A8894 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/FileName.cpp */,
+				91219E1A2E4041DC88C0F077 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Handler.cpp */,
+				13D4022B6CBA417DACECF323 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Html/Html_Request.cpp */,
+				F3DE81C523F44E80992CC496 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Cookies.cpp */,
+				919821376F3947AEAB9C3AE5 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Handler.cpp */,
+				10C9B1844D304728836F472E /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Request.cpp */,
+				0CDD35C0C87848279FFF19C5 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Format/Http/Http_Utils.cpp */,
+				D33F004FBB3C4E08B548077B /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/InfoMap.cpp */,
+				CC188ECED5F54BF491879C7A /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/MemoryDebug.cpp */,
+				7E14C4E7C6B44A97A78FBB77 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/OS_Utils.cpp */,
+				FAFC8CE5C4634E5F82474E87 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Thread.cpp */,
+				071FA9FC0265405AAD6ABCA6 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Translation.cpp */,
+				C58C091D201043FB8729527D /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Utils.cpp */,
+				4067E4E49FB14FB1ADA3BC86 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/Ztring.cpp */,
+				2154EA480D034D12B5A95E78 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringList.cpp */,
+				BAC26BAC6C1E46EDB0776EEE /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListList.cpp */,
+				DE11706A683F447DA51410E0 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/ZtringListListF.cpp */,
+				277332533FF7428E846F5650 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128s.cpp */,
+				AE2C062F4FD74AE4BCC70409 /* /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Source/ZenLib/int128u.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0BFBE07F49484FAFB72272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D5AA7712C1845F09D8CE2D8 /* zen */;
+			targetProxy = 4C4355E1EB2B4EB9A39EE78D /* PBXContainerItemProxy */;
+		};
+		C104B2437DDC4C20A970695E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5051E918EAC24832AF1F926D /* ALL_BUILD */;
+			targetProxy = 8FAADEB3AF5C481B9CD9D0CD /* PBXContainerItemProxy */;
+		};
+		D53B3CE364774A1BBAE8989E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A98FB7337A423988EA64FA /* ZERO_CHECK */;
+			targetProxy = 1B7D095C64634C2CBFFA6A04 /* PBXContainerItemProxy */;
+		};
+		ECD48DBA1784474BB87B1AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A98FB7337A423988EA64FA /* ZERO_CHECK */;
+			targetProxy = E20390CB1A004E2CA48DECBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1328E1D994974A78B61AFE41 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C370FF847F946D08DDA3BE4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3FCC08F90EE24B03B7979768 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/build;
+			};
+			name = RelWithDebInfo;
+		};
+		4B40958541414462B7B1EBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4BA82CB908464239BE66E100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		55B0F8A3370944E0B6342BDB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/build;
+			};
+			name = MinSizeRel;
+		};
+		5F3FE2C4C0FA4CAD99F4ED79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/build;
+			};
+			name = Debug;
+		};
+		79A1D09B4A374888BAFE3C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/build;
+			};
+			name = Release;
+		};
+		7B42A210917D48DE85623BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		85666B8CC26E4933A195F024 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8ACDFC02AF784A648B41C8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.4.37;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",zen_EXPORTS,UNICODE,_UNICODE,SIZE_T_IS_LONG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/../../Source);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/Debug/libzen_debug.0.dylib  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zen_debug.0.4.37;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		98C157AD9D754AA38B2EB5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.4.37;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",zen_EXPORTS,UNICODE,_UNICODE,SIZE_T_IS_LONG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/../../Source);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/Release/libzen.0.dylib  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zen.0.4.37;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9A49D4CC56714263A1BB771C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A486C4F9EC1E4728AEDCF69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B7366B5A5C9E4DCD8B8BA2B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B7ACD9C280534751A18F7E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C31AB61DCC76461EA9E1C049 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D064F49A3E5C47879FAC70F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.4.37;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",zen_EXPORTS,UNICODE,_UNICODE,SIZE_T_IS_LONG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/../../Source);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/RelWithDebInfo/libzen.0.dylib  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zen.0.4.37;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E278219F6B904B828B726470 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.4.37;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",zen_EXPORTS,UNICODE,_UNICODE,SIZE_T_IS_LONG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/ZenLib/Project/CMake/../../Source);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib/MinSizeRel/libzen.0.dylib  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zen.0.4.37;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F61FB72CDE2B4DE6A4AF1E74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yuelei/Desktop/MediaInfo_GUI_GNU_FromSource/MediaInfoLib/Project/CMake/ZenLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DCAF9480F14615B3F650FB /* Build configuration list for PBXProject "ZenLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3FE2C4C0FA4CAD99F4ED79 /* Debug */,
+				79A1D09B4A374888BAFE3C01 /* Release */,
+				55B0F8A3370944E0B6342BDB /* MinSizeRel */,
+				3FCC08F90EE24B03B7979768 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DD94595D232475088AD4730 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B42A210917D48DE85623BEC /* Debug */,
+				4BA82CB908464239BE66E100 /* Release */,
+				B7366B5A5C9E4DCD8B8BA2B6 /* MinSizeRel */,
+				C31AB61DCC76461EA9E1C049 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21C50AA7081B4F05A576E9EC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40958541414462B7B1EBF1 /* Debug */,
+				B7ACD9C280534751A18F7E76 /* Release */,
+				85666B8CC26E4933A195F024 /* MinSizeRel */,
+				1328E1D994974A78B61AFE41 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		932275D6AB004EB181581491 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A49D4CC56714263A1BB771C /* Debug */,
+				A486C4F9EC1E4728AEDCF69D /* Release */,
+				3C370FF847F946D08DDA3BE4 /* MinSizeRel */,
+				F61FB72CDE2B4DE6A4AF1E74 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D2707010C6441ACAD60E1B9 /* Build configuration list for PBXNativeTarget "zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACDFC02AF784A648B41C8B5 /* Debug */,
+				98C157AD9D754AA38B2EB5B8 /* Release */,
+				E278219F6B904B828B726470 /* MinSizeRel */,
+				D064F49A3E5C47879FAC70F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97CCA75359BB477283746F66 /* Project object */;
+}
